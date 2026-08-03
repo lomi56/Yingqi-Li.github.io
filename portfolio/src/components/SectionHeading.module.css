@@ -1,0 +1,28 @@
+.heading {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin: var(--sp-7) 0 var(--sp-4);
+  font-family: var(--font-mono);
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.prompt {
+  color: var(--fg-faint);
+}
+
+.command {
+  color: var(--fg);
+}
+
+.path {
+  color: var(--accent);
+}
+
+.rule {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+  margin-left: var(--sp-3);
+}

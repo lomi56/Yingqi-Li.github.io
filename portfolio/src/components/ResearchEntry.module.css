@@ -1,0 +1,81 @@
+.entry {
+  padding: var(--sp-5);
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+}
+
+.title {
+  font-family: var(--font-mono);
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+.year {
+  color: var(--fg-faint);
+}
+
+.badge {
+  font-size: 12px;
+  border-radius: var(--radius-sm);
+  padding: 0 6px;
+  line-height: 1.6;
+  border: 1px solid var(--border);
+}
+
+.paper {
+  color: var(--cyan);
+}
+
+.study {
+  color: var(--ok);
+}
+
+.status {
+  color: var(--fg-faint);
+}
+
+.venue {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--fg-dim);
+  margin: var(--sp-2) 0 0;
+}
+
+.authors {
+  font-size: 14px;
+  color: var(--fg-dim);
+  margin: var(--sp-1) 0 0;
+}
+
+.abstract {
+  font-size: 15px;
+  color: var(--fg);
+  margin: var(--sp-3) 0 0;
+  line-height: 1.65;
+}
+
+.links {
+  display: flex;
+  gap: var(--sp-4);
+  margin-top: var(--sp-3);
+  font-family: var(--font-mono);
+  font-size: 14px;
+}

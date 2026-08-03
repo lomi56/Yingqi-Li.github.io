@@ -1,0 +1,63 @@
+.post {
+  max-width: 720px;
+}
+
+.back {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--fg-dim);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: var(--sp-5);
+}
+
+.back:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.header {
+  margin-bottom: var(--sp-6);
+}
+
+.title {
+  font-size: 26px;
+  margin: 0 0 var(--sp-3);
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+.date {
+  color: var(--fg-faint);
+}
+
+.tags {
+  display: flex;
+  gap: var(--sp-2);
+}
+
+.tag {
+  color: var(--cyan);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0 8px;
+  line-height: 1.7;
+  background: var(--bg-0);
+}
+
+.notFound {
+  font-family: var(--font-mono);
+}
+
+.err {
+  color: var(--err);
+  margin-bottom: var(--sp-4);
+}

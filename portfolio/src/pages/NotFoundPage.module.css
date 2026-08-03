@@ -1,0 +1,34 @@
+.wrap {
+  max-width: 720px;
+  font-family: var(--font-mono);
+  padding-top: var(--sp-7);
+}
+
+.code {
+  color: var(--fg);
+  margin-bottom: var(--sp-2);
+}
+
+.prompt {
+  color: var(--fg-faint);
+}
+
+.err {
+  color: var(--err);
+  margin-bottom: var(--sp-2);
+}
+
+.hint {
+  color: var(--fg-dim);
+  margin-bottom: var(--sp-5);
+}
+
+.home {
+  font-size: 14px;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.home:hover {
+  text-decoration: underline;
+}

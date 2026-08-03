@@ -1,0 +1,54 @@
+@import '@fontsource-variable/jetbrains-mono';
+
+:root {
+  color-scheme: dark;
+
+  /* 背景层次 */
+  --bg-0: #0a0d13; /* 页面底 */
+  --bg-1: #0f141d; /* 卡片/抬升面 */
+  --bg-2: #131a26; /* 内嵌/code 块 */
+  --bg-3: #1b2434; /* hover */
+
+  /* 边框 */
+  --border: #1f2733;
+  --border-strong: #2b3547;
+
+  /* 前景 */
+  --fg: #d3d7de; /* 主文本 */
+  --fg-dim: #8b93a1; /* 次要 */
+  --fg-faint: #5b6472; /* 弱化/提示 */
+
+  /* 强调（琥珀磷光） */
+  --accent: #e0ac69;
+  --accent-strong: #f0c986;
+  --accent-dim: rgba(224, 172, 105, 0.14);
+
+  /* 语义色（终端约定） */
+  --cyan: #6fb7d6;
+  --ok: #7bbf8f;
+  --warn: #d8a657;
+  --err: #d9777b;
+
+  /* 字体 */
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, 'SFMono-Regular',
+    'Cascadia Code', Consolas, 'Liberation Mono', monospace;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif;
+
+  /* 圆角（克制） */
+  --radius-sm: 3px;
+  --radius-md: 6px;
+
+  /* 间距 */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+
+  /* 版心 */
+  --content-max: 1024px;
+}
